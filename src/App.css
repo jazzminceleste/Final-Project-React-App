@@ -1,3 +1,29 @@
 body {
   margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 600px 4fr;
+  grid-template-rows: 50px 1fr 50px;
+  gap: 5px;
+  font-family: cursive;
+  font-size: x-large
+}
+
+section {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50PX;
+  background-color: #63d629;
+}
+
+nav div {
+  font-size: 23px;
+  margin: 8px 30px 8px 30px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
