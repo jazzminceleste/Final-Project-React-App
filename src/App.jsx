@@ -11,7 +11,15 @@ const App = () => {
   return (
     <div>
       <Nav />
-    </div>
+      <p>Preference is Alaska's only ALL VEGAN restaurant</p>
+      <aside><Reviews /></aside>
+
+      <footer className="flex-ctr">
+        <a className="flex-ctr" href="https://www.facebook.com/PreferenceFoodtruck" target="_blank">Follow Us
+          on Facebook</a>
+
+      </footer>
+    </div >
   )
 }
 
