@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Nav />
       <p>Preference is Alaska's only ALL VEGAN restaurant</p>
-      <aside><Reviews /></aside>
+      <aside className='review'><Reviews /></aside>
       <Values />
       <div>
         {itemDetails.map(item => (
