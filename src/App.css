@@ -89,7 +89,9 @@ p {
 nav,
 footer,
 a {
-  grid-column: span 2;
+  /* grid-column: span 2; */
+  align-items: column;
+  align-items: flex-end;
 }
 
 #logoandtext {
