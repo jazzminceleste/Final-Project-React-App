@@ -80,7 +80,8 @@ a:hover {
 }
 
 .flex-ctr,
-p {
+p,
+h2 {
   display: flex;
   justify-content: center;
   align-items: center;
