@@ -14,7 +14,8 @@ const App = () => {
       <p>Preference is Alaska's only ALL VEGAN restaurant</p>
       <aside className='review'><Reviews /></aside>
       <Values />
-      <div>
+      <div className='menu-cards'>
+        <h2>Menu</h2>
         {itemDetails.map(item => (
           <Menu items={item} />
         )
