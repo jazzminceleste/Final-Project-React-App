@@ -113,6 +113,12 @@ a {
   grid-row: 3/5;
 }
 
+.values {
+  margin: 40px;
+  padding: 0 90px;
+
+}
+
 */
 /* margin-top: 100px;
   margin: 10px;

@@ -12,8 +12,8 @@ const App = () => {
     <div>
       <Nav />
       <p>Preference is Alaska's only ALL VEGAN restaurant</p>
+      <Values />
       <div className="grid">
-        <Values />
         <aside className='review'><Reviews /></aside>
 
         <div className='menu-cards'>
