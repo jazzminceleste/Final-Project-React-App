@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <p>Preference is Alaska's only ALL VEGAN restaurant</p>
+      <p className="header">Preference is Alaska's only ALL VEGAN restaurant</p>
       <Values />
       <div className="grid">
         <aside className='review'><Reviews /></aside>
@@ -19,7 +19,7 @@ const App = () => {
         <div className='menu-cards'>
           <h2>Menu</h2>
           {itemDetails.map(item => (
-            <Menu items={item} />
+            <Menu className="menu" items={item} />
           )
           )}
         </div>
