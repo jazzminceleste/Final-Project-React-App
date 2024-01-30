@@ -4,9 +4,9 @@ const Reviews = () => {
     <div>
       <h2>Reviews</h2>
       <p>
-        Samuel P <br />
-        7/21/23<br />
-        "The Beyond Gyro is "out of bounds" delicious. The beef was kinda on the salty side, however, the lettuce, feta, onions and taziki balanced it all out. The food here is amazing, light in portion (this place actually implements portion control). Major kudos!"
+        Michelle M <br />
+        2/8/22<br />
+        "I had the hot honee and Asian garlic wingz with a side salad!!!  So delicious!  I'm so happy we have a Vegan restaurant in Anchorage now and delivery service is a plus!"
       </p>
       <p>
         Vonda I <br />

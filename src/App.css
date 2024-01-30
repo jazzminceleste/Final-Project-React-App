@@ -1,5 +1,5 @@
 body {
-  gap: 5px;
+
   font-family: cursive;
 }
 
@@ -41,11 +41,9 @@ nav div:hover {
 
 aside {
   display: grid;
-  grid-template-columns: 30%;
-  grid-template-rows: 5%;
-  justify-content: left;
   grid-row-start: 1;
   grid-row-end: 3;
+  grid-row: span 50%;
   background-color: rgb(230, 248, 222);
 }
 
@@ -83,6 +81,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h2 {
+  color: green;
 }
 
 nav,
