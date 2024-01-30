@@ -12,14 +12,17 @@ const App = () => {
     <div>
       <Nav />
       <p>Preference is Alaska's only ALL VEGAN restaurant</p>
-      <aside className='review'><Reviews /></aside>
-      <Values />
-      <div className='menu-cards'>
-        <h2>Menu</h2>
-        {itemDetails.map(item => (
-          <Menu items={item} />
-        )
-        )}
+      <div className="grid">
+        <Values />
+        <aside className='review'><Reviews /></aside>
+
+        <div className='menu-cards'>
+          <h2>Menu</h2>
+          {itemDetails.map(item => (
+            <Menu items={item} />
+          )
+          )}
+        </div>
       </div>
       <footer className="flex-ctr">
         <a className="flex-ctr" href="https://www.facebook.com/PreferenceFoodtruck" target="_blank">Follow Us
