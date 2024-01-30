@@ -10,7 +10,6 @@ section {
 nav {
   display: flex;
   justify-content: center;
-  height: 50PX;
   background-color: #63d629;
 }
 
@@ -80,18 +79,10 @@ p,
 h2 {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 h2 {
   color: green;
-}
-
-nav,
-footer,
-a {
-  align-items: column;
-  align-items: flex-end;
 }
 
 #logoandtext {
@@ -113,11 +104,12 @@ a {
 
 .menu-card {
   grid-row: 3/5;
+  flex-wrap: wrap;
 }
 
 .values {
   margin: 40px;
-  padding: 0 90px;
+  padding: 0 130px;
 
 }
 
