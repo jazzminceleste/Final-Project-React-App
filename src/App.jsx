@@ -17,7 +17,6 @@ const App = () => {
         <aside className='review'><Reviews /></aside>
 
         <div className='menu-cards'>
-          <h2>Menu</h2>
           {itemDetails.map(item => (
             <Menu className="menu" items={item} />
           )

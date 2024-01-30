@@ -160,8 +160,10 @@ h2 {
 } */
 
 .menu-cards {
-  /* display: flex; */
+  display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
 }
